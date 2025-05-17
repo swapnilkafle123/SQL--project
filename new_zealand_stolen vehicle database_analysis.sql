@@ -10,7 +10,7 @@ GROUP BY
 ORDER BY 
     total_stolen DESC;
     
-    -- The most amount of vehicles stolen has been during Mondays and the least amount of vehicles that have been stolen have been during saturdays.
+    -- (The most amount of vehicles stolen has been during Mondays and the least amount of vehicles that have been stolen have been during saturdays.)
    
 
 -- (2)What types of vehicles are most often and least often stolen? Does this vary by region?
@@ -28,8 +28,8 @@ GROUP BY
 ORDER BY 
     l.region, total_stolen DESC;
 
--- Saloon seems to be the more often stolen vehicle, while least stolen are more than one and varies depending on the region. Mostly trucks, caravan, mobile home - light, 
--- But in Auckland, the numbers of vehicles stolen are much higher irrespective of the vehicle type compared to other region. 
+--( Saloon seems to be the more often stolen vehicle, while least stolen are more than one and varies depending on the region. Mostly trucks, caravan, mobile home - light, 
+-- But in Auckland, the numbers of vehicles stolen are much higher irrespective of the vehicle type compared to other region. )
 
 
 
@@ -51,7 +51,7 @@ GROUP BY
 ORDER BY 
     avg_vehicle_age DESC;
 
--- The average age of stolen vehicle is around 19-20 yrs old. And yes, this does vary depending on the type of vehicle.
+-- (The average age of stolen vehicle is around 19-20 yrs old. And yes, this does vary depending on the type of vehicle.)
 
 
 -- (4) Which regions have the most and least number of stolen vehicles? What are the characteristics of the regions?
@@ -70,7 +70,8 @@ GROUP BY
 ORDER BY 
     total_stolen DESC;
     
--- Auckland has the most number of stolen vehicle, while tasman, Marlborough, and west coast have the lowest . Population and density of the region directly corelates to crime/total stolen vehicles.
+-- ( Auckland has the most number of stolen vehicle, while tasman, Marlborough, and west coast have the lowest .) 
+-- (Population and density of the region directly corelates to crime/total stolen vehicles.)
 
 
 -- (5) What are the most common vehicle colors among stolen vehicles?
@@ -85,7 +86,7 @@ GROUP BY
 ORDER BY 
     total_stolen DESC;
     
--- They seem to love silver and white, being the highest to be stolen, or they are catchy colours and stand out.
+-- (They seem to love silver and white, being the highest to be stolen, or they are catchy colours and stand out.)
 
 -- (6) Are newer vehicles (recent model years) stolen more often than older ones?
 
@@ -99,7 +100,7 @@ GROUP BY
 ORDER BY 
     model_year DESC;
 
--- No, there is no direct corelation to the newer model being stolen more or less and vice versa.
+-- ( No, there is no direct corelation to the newer model being stolen more or less and vice versa.)
 
 -- (7) Which vehicle makes (brands) are stolen most often?
 
@@ -116,7 +117,7 @@ ORDER BY
     total_stolen DESC;
 
 
--- Toyotas are stolen more often, even the thiefs know they are worth stealing, very reliable vehicles they are indeed.
+-- (Toyotas are stolen more often, even the thiefs know they are worth stealing, very reliable vehicles they are indeed.)
 
 
 
